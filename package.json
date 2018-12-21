@@ -1,0 +1,8 @@
+{
+    "name": "MariO",
+    "version": "1.0.0",
+    "description": "My own Discord bot",
+    "main": "main.py",
+    "author": "Egely#1893",
+    "dependencies": {}
+  }
