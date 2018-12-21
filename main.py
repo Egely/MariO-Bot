@@ -13,7 +13,7 @@ async def mario(ctx):
     chan = author.voice_channel
     voice = await client.join_voice_channel(chan)
     while True:
-        player = voice.create_ffmpeg_player("/home/pi/Projecto/mario.mp3")
+        player = voice.create_ffmpeg_player("mario.mp3")
         player.volume = 100/100
         player.start()
         await asyncio.sleep(60+34)
@@ -26,7 +26,7 @@ async def mario2(ctx):
     chan = author.voice_channel
     voice = await client.join_voice_channel(chan)
     while True:
-        player = voice.create_ffmpeg_player("/home/pi/Projecto/mario2.mp3")
+        player = voice.create_ffmpeg_player("mario2.mp3")
         player.volume = 100/100
         player.start()
         await asyncio.sleep(60+34)
@@ -39,7 +39,7 @@ async def mario3(ctx):
     chan = author.voice_channel
     voice = await client.join_voice_channel(chan)
     while True:
-        player = voice.create_ffmpeg_player("/home/pi/Projecto/mario3.mp3")
+        player = voice.create_ffmpeg_player("mario3.mp3")
         player.volume = 100/100
         player.start()
         await asyncio.sleep(60+34)
@@ -52,7 +52,7 @@ async def padoru(ctx):
     chan = author.voice_channel
     voice = await client.join_voice_channel(chan)
     while True:
-        player = voice.create_ffmpeg_player("/home/pi/Projecto/padorupadoru.mp3")
+        player = voice.create_ffmpeg_player("padorupadoru.mp3")
         player.volume = 100/100
         player.start()
         await asyncio.sleep(60+34)
